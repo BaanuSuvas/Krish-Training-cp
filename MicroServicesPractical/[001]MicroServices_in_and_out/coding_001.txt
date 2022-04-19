@@ -1,0 +1,12 @@
+Coding [001]
+Micro services are all about deploying component as a service. Service can talk to each component and get the final job done. Spring Cloud and Spring Boot framework helps to develop MS.
+Spring cloud
+Open source framework, capable to run and deploy anywhere (cloud or own data center).
+Spring Boot
+Convention over Configuration – E.g.: Property file should place is the place which is allocated for property. Call it as convention.
+Dependency management made simple – can use maven or what ever 
+IDEA – IntellIJ IDEA or Eclipse , Spring STS is a spring Idea
+We have controller, service and repository.
+Controller is responsible to handle the traffic ( do the required service). It is a last layer which is handling the exception in the spring environment. 
+Service is to hold the business logic. It maintains the state. Example: generate new session.
+Repository is deal with database ( database query, crud operation ). 
